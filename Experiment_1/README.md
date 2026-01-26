@@ -183,32 +183,32 @@ REVOKE SELECT,INSERT,DELETE,UPDATE ON BOOKS FROM LIBRARIAN
 3. **BOOK_ISSUE Table**: Issue records linking visitors to books through foreign keys
 4. **User Role**: LIBRARIAN role with specific permissions
 
-### Expected Outputs:
+### Outputs:
 
 1. **Successful Table Creation**: All three tables created with proper constraints and relationships
 2. **Data Insertion Success**: Records inserted without constraint violations
 3. **SELECT Query Results**: All records displayed with proper structure and data types
 4. **Role Management**: LIBRARIAN role created and permissions granted/revoked successfully
 
-### Sample Screenshots:
+### Screenshots:
 
 **Figure 1: BOOKS Table Creation and Data Insertion**
-![BOOKS Table Creation](./assets/1.PNG)
+![BOOKS Table Creation](./1.PNG)
 
 **Figure 2: LIBRARY_VISITORS Table Creation with Constraints**
-![LIBRARY_VISITORS Table](./assets/2.PNG)
+![LIBRARY_VISITORS Table](./2.PNG)
 
 **Figure 3: BOOK_ISSUE Table with Foreign Key Relationships**
-![BOOK_ISSUE Table](./assets/3.PNG)
+![BOOK_ISSUE Table](./3.PNG)
 
 **Figure 4: Data Insertion and Retrieval Operations**
-![Data Insertion Results](./assets/4.PNG)
+![Data Insertion Results](./4.PNG)
 
 **Figure 5: Database Role Creation and Permission Management**
-![Role Creation](./assets/5.PNG)
+![Role Creation](./5.PNG)
 
 **Figure 6: Permission Grant and Revoke Operations**
-![Permission Operations](./assets/6.PNG)
+![Permission Operations](./6.PNG)
 
 
 ---
